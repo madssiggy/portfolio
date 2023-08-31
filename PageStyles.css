@@ -1,0 +1,77 @@
+/* 全体のスタイル */
+body {
+    text-align: center;
+ 
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* 背景画像のアニメーション */
+body {
+    transition: background-position-y 0.3s ease;
+}
+/* ヘッダーのスタイル */
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+header img {
+    max-width: 100%;
+    height: auto;
+}
+header h1 {
+    margin: 0;
+    padding: 10px 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    text-decoration: none;
+}
+/* メインコンテンツのスタイル */
+main {
+    padding: 20px;
+}
+section h2 {
+    margin-top: 40px;
+}
+/* クリックボックスのスタイル */
+.click-box {
+    position: fixed;
+    left: 0;
+    bottom: 50%;
+    width: 80px;
+    height: 70px;
+    background-color: #AAAAAA;
+    opacity: 0.5;
+    transition: width 0.3s ease;
+    background-size: cover;
+    background-image: url('home.png'); /* 画像のパスを指定 */
+    background-repeat: no-repeat;
+    background-position: right center; /* 画像を右端に配置 */
+}
+.click-box:hover {
+    width: 200px;
+    opacity: 1;
+    background-size: 80px 70px; /* スライド後は元のサイズを維持 */
+}
+.click-box img {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.click-box:hover img {
+    display: block;
+}
+.button:hover span.text {
+    display: inline-block; /* ホバー時にテキストを表示 */
+    text-align: left; /* 左中央揃え */
+}

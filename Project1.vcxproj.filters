@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="page1.htm">
+    <None Include="index.htm">
       <Filter>リソース ファイル</Filter>
     </None>
     <None Include="styles.css">
@@ -32,6 +32,18 @@
     </None>
     <None Include="PageStyles.css">
       <Filter>ソース ファイル</Filter>
+    </None>
+    <None Include="Gallaley.htm">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="game.htm">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="proposal1.htm">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="proposal2.htm">
+      <Filter>リソース ファイル</Filter>
     </None>
   </ItemGroup>
 </Project>

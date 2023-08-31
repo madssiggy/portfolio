@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{55a7f8b6-8e91-4566-a1e5-9b2ccfb6437d}</ProjectGuid>
+    <ProjectGuid>{D8B47BF4-D90E-4F86-9391-840B78F4A7D8}</ProjectGuid>
     <RootNamespace>Project1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -127,14 +127,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="Gallaley.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="HTMLPage.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="page1.htm">
+    <None Include="game.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="index.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="PageStyles.css" />
     <None Include="profile.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="proposal1.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="proposal2.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="slideBar.css" />

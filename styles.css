@@ -7,7 +7,7 @@
         .centered {
             position: absolute;
             top: 50%; /* 上端から50%の位置に配置 */
-            left: 15%;
+            left: 20%;
             transform: translate(0%, -50%); /* 中央揃え */
         }
 

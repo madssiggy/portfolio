@@ -21,9 +21,6 @@
     <None Include="styles.css">
       <Filter>ソース ファイル</Filter>
     </None>
-    <None Include="HTMLPage.htm">
-      <Filter>リソース ファイル</Filter>
-    </None>
     <None Include="slideBar.css">
       <Filter>ソース ファイル</Filter>
     </None>
@@ -44,6 +41,12 @@
     </None>
     <None Include="proposal2.htm">
       <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="reset.css">
+      <Filter>ソース ファイル</Filter>
+    </None>
+    <None Include="5-9.css">
+      <Filter>ソース ファイル</Filter>
     </None>
   </ItemGroup>
 </Project>

@@ -1,50 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Procedural Sky and Clouds</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
-
-        /* 青空 */
-        body::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to bottom, #87CEEB, #1E90FF);
-            z-index: -1; /* コンテンツよりも背面に配置 */
-        }
-
-        /* 雲 */
-        .cloud {
-            position: absolute;
-            background-color: #fff;
-            border-radius: 50%;
-            opacity: 0.7;
-            pointer-events: none; /* マウスイベントの対象外に設定 */
-        }
-
-        /* 雲のスタイル */
-        .cloud1 { width: 200px; height: 60px; top: 20%; left: 10%; }
-        .cloud2 { width: 150px; height: 50px; top: 30%; left: 20%; }
-        .cloud3 { width: 180px; height: 70px; top: 40%; left: 40%; }
-        /* 追加の雲を必要に応じて追加 */
-
-    </style>
+    <meta charset="utf-8">
+    <title>bonfire</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="pdfStyles.css">
 </head>
 <body>
-    <!-- 雲の要素 -->
-    <div class="cloud cloud1"></div>
-    <div class="cloud cloud2"></div>
-    <div class="cloud cloud3"></div>
-    <!-- 追加の雲を必要に応じて追加 -->
+
+        <div id="pdf-container">
+            <embed id="pdf-embed" src="bonfire.pdf" type="application/pdf">
+        </div>
+
 </body>
 </html>

@@ -128,16 +128,28 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="5-9.css" />
+    <None Include="5-9.js" />
+    <None Include="Button.css" />
+    <None Include="clickBox.css" />
+    <None Include="contact.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="Gallaley.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="game.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="hobby.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="hover.css" />
     <None Include="index.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="PageStyles.css" />
+    <None Include="particles.min.js" />
+    <None Include="pdfStyles.css" />
     <None Include="profile.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
@@ -150,6 +162,9 @@
     <None Include="reset.css" />
     <None Include="slideBar.css" />
     <None Include="styles.css" />
+    <None Include="works.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

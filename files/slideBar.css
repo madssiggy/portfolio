@@ -53,7 +53,7 @@ section h2 {
     background-color: #f00;
     opacity: 0.5;
     transition: width 0.3s ease;
-    background-image: url("planetImage.png");
+    background-image: url("resources/planetImage.png");
     background-size: cover;
 }
 .click-box:hover {
